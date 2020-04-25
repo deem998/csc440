@@ -1,0 +1,44 @@
+﻿<html><head>
+        <!-- The title shows up in the browser toolbar -->
+        <title>Welcome to my website </title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+	    
+         <div class="title-text">
+         <h1>  
+            Welcome
+            <span id="result"> </span> to my website 
+            <span style="white-space: pre-line"></span>
+            our interests are matches 
+            <span id="matches"></span> 
+            I am also intrested in { <span id="intre"></span> }
+           
+
+            
+                <p><a href="srt-resume.html" >here is my CV </a> </a> </p>
+
+           
+
+            
+            
+            <script>
+            document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+            document.getElementById("matches").innerHTML=localStorage.getItem("percentage")+"%";
+            document.getElementById("intre").innerHTML=localStorage.getItem("match_in");
+
+            
+            </script>
+            </h1>
+            </div>
+          
+
+        <style>
+            
+            body {
+                background-image: url("https://cdn.suwalls.com/wallpapers/cartoons/disney-castle-31399-1920x1080.jpg");
+            }
+        </style>
+    </body>

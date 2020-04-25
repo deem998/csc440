@@ -1,0 +1,48 @@
+﻿
+
+.cover-image {
+  color: rgb(141, 157, 243);
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/e2/b8/2a/e2b82aded815e80351b929a77519adaa.jpg");*/
+    /* Set a specific height */
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+  .first-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 174, 255);
+  }
+  .title-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: rgb(109, 209, 255);
+  }
+  .form-text{
+    color: rgb(43, 226, 119);
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+  }
+
+.section{
+  color: rgb(173, 208, 247);
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
